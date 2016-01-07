@@ -1,0 +1,171 @@
+body{
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+}
+.primary-text{
+  color:#47a0ce;
+}
+.primary-background{
+  background-color:#47a0ce;
+}
+.secondary-text{
+  color:white;
+}
+.secondary-background{
+  background-color:white;
+}
+.btn{
+  text-decoration:none;
+  text-align:center;
+  padding:8px 20px;
+  font-size:20px;
+  border-radius:6px;
+}
+.btn:hover{
+  opacity:0.8;
+}
+.border{
+  border:2px solid #ccc;
+}
+
+/* HEADER */
+
+header{
+  padding:10px 75px;
+  overflow:auto;
+  height:75px;
+  line-height:75px;
+}
+header .logo{
+  float:left;
+}
+header .logo img{
+  vertical-align:middle;
+}
+header .text{
+  float:left;
+  font-size:24px;
+  margin-left:10px;
+}
+header nav{
+  float:right;
+}
+
+/* MAIN */
+
+main{
+  overflow:auto;
+  padding:40px 75px;
+}
+div[class*="col-"]{
+  float:left;
+  box-sizing:border-box;
+}
+.col-quarter{
+  width:25%;
+}
+.col-half{
+  width:50%;
+}
+.col-three-quarters{
+  width:75%;
+}
+
+/* PROFILE */
+
+.profile{
+  padding:25px 25px 25px 0;
+  text-align:center;
+}
+.profile .image img{
+  vertical-align:middle;
+}
+.profile .bio{
+  margin-top:25px;
+  padding:0 25px 15px 25px;
+}
+.profile .bio .joined{
+  border-top:1px solid #ccc;
+  padding-top:15px;
+}
+
+/* CONTENT */
+
+.content{
+  padding:25px;
+}
+.content .stats{
+  padding:20px;
+  overflow:auto;
+  font-size:20px;
+}
+.content .tweets{
+  margin-top:25px;
+  padding:0 20px;
+}
+.content .tweets .tweet{
+  overflow:auto;
+  border-bottom:1px solid #ccc;
+  margin:15px 0;
+  padding-bottom:15px;
+}
+.content .tweets .tweet:last-child{
+  border-bottom:none;
+  padding-bottom:0;
+}
+.content .tweets .tweet a{
+  float:right;
+  font-size:16px;
+}
+.content .tweets .tweet p{
+  margin:0 0 12px 0;
+}
+
+/* SUGGESTIONS */
+
+.suggestions{
+  padding:25px 0 25px 25px;
+}
+.suggestions .list{
+  padding:0 25px 25px 25px;
+  text-align:center;
+}
+.suggestions .list .user{
+  margin:25px 0;
+}
+.suggestions .list .user img{
+  display:block;
+  margin:0 auto 10px auto;
+}
+
+/* FOOTER */
+
+footer{
+  text-align:center;
+  padding:25px;
+}
+footer ul{
+  padding:0;
+  margin:15px 0 0 0;
+  list-style-type:none;
+}
+footer nav li{
+  display:inline-block;
+  margin:0 10px;
+}
+footer nav li a{
+  text-decoration:none;
+  color:white;
+}
+footer nav li a:hover{
+  opacity:0.8;
+}
+
+/* RESPONSIVE (DESKTOP-FIRST) */
+
+  /* MOBILE (SMALL) */
+
+  @media screen and (max-width:768px){
+
+  }
