@@ -166,6 +166,13 @@ footer nav li a:hover{
 
   /* MOBILE (SMALL) */
 
+  @media screen and (max-width: 1000px) {
+    .col-quarter{
+      width:50%;
+    } 
+  }
   @media screen and (max-width:768px){
-
+    .col-quarter{
+      width:100%;
+    } 
   }
