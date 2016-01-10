@@ -174,15 +174,15 @@ footer nav li a:hover{
 
   /*PROFILE*/
   @media screen and (max-width:600px){
-    .profile .image{
+    .profile .image, .profile img{
       float: left;
-      width: 30%;
+      width: auto;
     } 
   }
   @media screen and (max-width:600px){
     .profile .bio{
       float: right;
-      width: 40%;
+      width: auto;
     } 
   }
   /*TWEETS*/
