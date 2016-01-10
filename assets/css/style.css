@@ -166,44 +166,46 @@ footer nav li a:hover{
 
   /* MOBILE (SMALL) */
 
-  @media screen and (max-width: 1000px) {
-    .col-quarter{
-      width:50%;
-    } 
-  }
-  @media screen and (max-width:500px){
+  @media screen and (max-width: 600px) {
     .col-quarter{
       width:100%;
     } 
   }
 
   /*PROFILE*/
-  @media screen and (max-width:500px){
-    .col-quarter.profile{
-      display: inline;
+  @media screen and (max-width:600px){
+    .profile .image{
+      float: left;
+      width: 30%;
     } 
   }
-  @media screen and (max-width:500px){
-    .col-quarter.bio{
-      display: inline;
+  @media screen and (max-width:600px){
+    .profile .bio{
+      float: right;
+      width: 40%;
     } 
   }
   /*TWEETS*/
   
-  @media screen and (max-width:500px){
+  @media screen and (max-width:600px){
     .col-half.content{
       width:100%;
     } 
   }
   /*Hide buttons on mobile*/
-  @media screen and (max-width:500px){
+  @media screen and (max-width:600px){
     .actions.col-quarter{
       display: none;
     } 
   }
 
   /*SUGGESTIONS*/
-  @media screen and (max-width:500px){
+    @media screen and (max-width:600px){
+    .col-quarter.suggestions{
+      width:100%;
+    } 
+  }
+  @media screen and (max-width:600px){
     .user{
       width: 30%;
       display: inline-block;
