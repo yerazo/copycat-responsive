@@ -171,8 +171,41 @@ footer nav li a:hover{
       width:50%;
     } 
   }
-  @media screen and (max-width:768px){
+  @media screen and (max-width:500px){
     .col-quarter{
       width:100%;
+    } 
+  }
+
+  /*PROFILE*/
+  @media screen and (max-width:500px){
+    .col-quarter.profile{
+      display: inline;
+    } 
+  }
+  @media screen and (max-width:500px){
+    .col-quarter.bio{
+      display: inline;
+    } 
+  }
+  /*TWEETS*/
+  
+  @media screen and (max-width:500px){
+    .col-half.content{
+      width:100%;
+    } 
+  }
+  /*Hide buttons on mobile*/
+  @media screen and (max-width:500px){
+    .actions.col-quarter{
+      display: none;
+    } 
+  }
+
+  /*SUGGESTIONS*/
+  @media screen and (max-width:500px){
+    .user{
+      width: 30%;
+      display: inline-block;
     } 
   }
