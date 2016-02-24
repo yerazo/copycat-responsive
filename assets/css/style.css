@@ -166,38 +166,64 @@ footer nav li a:hover{
 
   /* MOBILE (SMALL) */
 
-  @media screen and (max-width: 600px) {
-    .col-quarter{
-      width:100%;
+  @media screen and (max-width: 768px) {
+    header{
+      padding:10px 15px;
     } 
+    header .text{
+      display: none;
+    }
+    main{
+      padding: 10px 15px;
+    }
+    .profile{
+      width: 100%;
+    }
+    .profile .image{
+      width: 48%;
+      float: left;
+      box-sizing: border-box;
+    }
+    .profile .image img{
+      max-width: 100%;
+    }
+    .profile .bio{
+      width: 48%;
+      float: right;
+      box-sizing: border-box;
+      margin-top: 0;
+    }
+    .profile .bio p{
+      margin-bottom: 0;
+    }
+    .profile .bio .joined{
+      display: none;
+    }
+    .content{
+      width: 100%;
+      padding: 0;
+    }
+    .content .stats{
+      margin-top: 25px;
+    }
+    .content .tweets .actions{
+      display: none;
+    }
+    .suggestions{
+      padding: 0;
+      width: 100;
+      margin-top: 25px;
+    }
+    .suggestions .list .user{
+      float: left;
+      width: 33.333
+    }
+    .suggestions .list{
+      overflow: auto;
+    }
   }
 
-  /*PROFILE*/
-  @media screen and (max-width:600px){
-    .profile .image, .profile img{
-      float: left;
-      width: auto;
-    } 
-  }
-  @media screen and (max-width:600px){
-    .profile .bio{
-      float: right;
-      width: auto;
-    } 
-  }
-  /*TWEETS*/
-  
-  @media screen and (max-width:600px){
-    .col-half.content{
-      width:100%;
-    } 
-  }
-  /*Hide buttons on mobile*/
-  @media screen and (max-width:600px){
-    .actions.col-quarter{
-      display: none;
-    } 
-  }
+
 
   /*SUGGESTIONS*/
     @media screen and (max-width:600px){
